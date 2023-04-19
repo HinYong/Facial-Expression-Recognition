@@ -1,0 +1,39 @@
+/**index.wxss**/
+
+page {
+  min-height: 100%;
+}
+
+.block-title {
+  margin-top:10px;
+  text-align: center;
+  line-height: 110rpx;
+  font-size: 42rpx;
+  font-weight: bold;
+}
+
+.title {
+  text-align: center;
+  color: #61a1ff
+}
+
+.btn1 {
+  width: 40%;
+  margin-top: 20rpx;
+  background-color: green;
+  color: white;
+  border-radius: 98rpx; 
+}
+
+.imagesize{
+  background: #fff;
+  border: 2.5px solid white;
+  display:flex;                   
+  justify-content: center;         
+  align-items:center;                
+}
+ 
+.imagesize image {
+  width:400rpx;
+  height:310rpx;
+}

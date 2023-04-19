@@ -1,0 +1,23 @@
+<!--pages/Camera/Camera.wxml-->
+<view wx:if="{{flag==0}}">
+  <view class="block-title">
+      <text class="title">拍照</text>
+  </view>
+  <camera device-position="front" flash="off" binderror="error" style="width:100%;height:300px;"></camera>
+  <text>\n</text>
+  <button class="btn1" bindtap="takePhoto">拍照</button>
+</view>
+<view wx:elif="{{flag==1}}">
+  <view class="block-title">
+      <text class="title">预览</text>
+  </view>
+  <image mode="widthFix" src="{{src}}"></image>
+  <text>\n\n</text>
+  <button class="btn1" bindtap="retake">重新拍照</button>
+  <text>\n</text>
+  <form bindsubmit="upload">
+    <button class="btn1" form-type="submit">上传</button>
+    <input name="imagesrc" value="{{src}}" hidden="true"></input>
+  </form>
+  <text>\n\n</text>
+</view>

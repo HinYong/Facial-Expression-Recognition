@@ -1,0 +1,21 @@
+/* pages/Camera/Camera.wxss */
+.block-title {
+  margin-top:10px;
+  text-align: center;
+  line-height: 110rpx;
+  font-size: 42rpx;
+  font-weight: bold;
+}
+
+.title {
+  text-align: center;
+  color: #61a1ff
+}
+
+.btn1 {
+  width: 40%;
+  margin-top: 20rpx;
+  background-color: green;
+  color: white;
+  border-radius: 98rpx; 
+}

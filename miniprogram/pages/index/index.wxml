@@ -1,0 +1,23 @@
+<view>
+  <view class="block-title">
+      <text class="title">上传图片</text>
+  </view>
+</view>
+
+<text>\n</text>
+
+<button class="imagesize" bindtap="setPhotoInfo">
+  <image mode="widthFix" src="{{src}}" class="in-image"></image>
+</button>
+
+<text>\n</text>
+<button class="btn1" bindtap="goToCameraPage">使用摄像头</button>
+
+<form bindsubmit="upload">
+  <text>\n</text>
+  <button class="btn1" form-type="submit">上传</button>
+  <input name="imagesrc" value="{{src}}" hidden="true"></input>
+</form>
+
+
+

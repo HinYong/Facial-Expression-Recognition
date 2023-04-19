@@ -1,0 +1,108 @@
+/* pages/Result/Result.wxss */
+
+page {
+  min-height: 100%;
+}
+
+.imagesize{
+  background: #fff;
+  border: 2.5px solid white;
+  display:flex;                   
+  justify-content: center;         
+  align-items:center;                
+}
+ 
+.imagesize image {
+  width:400rpx;
+  height:310rpx;
+}
+
+.block-title {
+  margin-top:10px;
+  text-align: center;
+  line-height: 110rpx;
+  font-size: 42rpx;
+  font-weight: bold;
+}
+
+.title {
+  text-align: center;
+  color: #61a1ff
+}
+
+.btn1 {
+  width: 40%;
+  margin-top: 20rpx;
+  background-color: green;
+  color: white;
+  border-radius: 98rpx; 
+}
+
+/* pages/my/Info/Info.wxss */
+.main {
+  margin-bottom: 30px;
+  font-family: "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", "\9ED1\4F53", Arial, sans-serif;
+  font-size: 30rpx;
+  color: #888;
+}
+
+.map {
+  width: 100%;
+  height: 300px;
+  border-bottom: 2px solid #eee
+}
+
+.mcname {
+  height: 100rpx;
+  font-size: 39rpx;
+  font-weight: bold;
+  line-height: 100rpx;
+  text-align: center;
+  margin-top: 30rpx;
+  color: #888
+}
+
+.mcinfo {
+  font-size: 30rpx;
+  min-height: 100rpx;
+  line-height: 100rpx;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  width: 94%;
+  word-break: break-all;
+  margin: auto;
+  color: #999;
+  background: #fff
+}
+.mcinfolast {
+  font-size: 30rpx;
+  min-height: 300rpx;
+  line-height: 100rpx;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  width: 94%;
+  word-break: break-all;
+  margin: auto;
+  color: #999;
+  background: #fff
+}
+
+.mctlt {
+  width: 28%;
+  text-align: right;
+  padding-left: 5px;
+  font-size: 30rpx;
+  float: left;
+}
+
+.mcval {
+  width: 70%;
+  vertical-align: middle;
+  font-size: 30rpx;
+  float: left;
+}
+
+.banner image {
+  width: 100%;
+  height: 400rpx;
+}

@@ -1,0 +1,31 @@
+<!--pages/Result/Result.wxml-->
+<view>
+  <view class="block-title">
+      <text class="title">检测结果</text>
+  </view>
+</view>
+
+<button class="imagesize">
+  <image mode="widthFix" src="{{src}}" class="in-image"></image>
+</button>
+
+<view>
+  <view class="block-title">
+      <text class="title">情绪识别度</text>
+  </view>
+</view>
+
+<!--绘制canvas-->
+<canvas canvas-id="columnCanvas" class="canvas" bindtouchstart="touchHandler"></canvas>
+
+<view>
+  <view class="block-title">
+      <text class="title">Result：{{emotion}}</text>
+  </view>
+</view>
+
+<button class="btn1" bindtap="backtoindex">返回首页</button>
+<text>\n\n\n</text>
+
+
+
